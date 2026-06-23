@@ -44,7 +44,7 @@ final class StkAppInstaller {
         if (pm != null) {
             ComponentName component = new ComponentName(context, StkMain.class);
             int userId = context.getUserId();
-            int icon = R.mipmap.ic_launcher;
+            int icon = R.drawable.ic_launcher_sim_toolkit;
             try {
                 try {
                     if (label != null) {
