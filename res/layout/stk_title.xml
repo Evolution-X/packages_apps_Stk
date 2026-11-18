@@ -30,10 +30,9 @@
             android:visibility="gone"
             android:layout_width="32dip"
             android:layout_height="32dip"
-            android:layout_marginLeft="2dip"
-            android:layout_marginRight="9dip"
+            android:layout_marginStart="2dip"
+            android:layout_marginEnd="9dip"
             android:layout_gravity="center_vertical"
-            android:layout_alignParentLeft="true"
             android:scaleType="fitCenter" />
 
         <HorizontalScrollView
@@ -53,14 +52,13 @@
     <LinearLayout android:id="@+id/right_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_centerVertical="true">
 
         <ProgressBar android:id="@+id/progress_bar"
                 style="?android:attr/progressBarStyleSmallTitle"
                 android:layout_width="32dip"
                 android:layout_height="32dip"
-                android:layout_marginLeft="5dip"
+                android:layout_marginStart="5dip"
                 android:layout_centerVertical="true"
                 android:visibility="gone"
                 android:max="10000" />
